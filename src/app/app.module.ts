@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { CalculatorWidgetComponent } from './calculator-widget/calculator-widget.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalculatorWidgetComponent
   ],
   imports: [
     BrowserModule

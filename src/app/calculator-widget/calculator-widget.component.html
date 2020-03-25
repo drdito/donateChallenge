@@ -1,0 +1,11 @@
+<div class="calculator-root">
+  <label class="input-label" for="numberEntered">Yearly Salary</label>
+  <div class="input-parent">
+    <div class="input-lable-parent">
+      <input id="numberEntered" type="number">
+    </div>
+   <button (click)="onCalculate($event)" id="calculate">Calculate</button>
+  </div>
+  <br>
+  <div id="result"><strong>{{displayAnswer}}</strong></div>
+</div>
